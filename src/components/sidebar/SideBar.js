@@ -6,17 +6,19 @@ const SideBar = () => (
     <div>
       <img src={Logo} alt="logo" />
     </div>
-    <div>
-      <div>
-        <span className="material-symbols-outlined">list</span>
-      </div>
-      <div>
-        <span className="material-symbols-outlined">replay</span>
-      </div>
-      <div>
-        <span className="material-symbols-outlined">insert_chart</span>
-      </div>
-    </div>
+    <nav>
+      <ul>
+        <li>
+          <span className="material-symbols-outlined">list</span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined">replay</span>
+        </li>
+        <li>
+          <span className="material-symbols-outlined">insert_chart</span>
+        </li>
+      </ul>
+    </nav>
     <div>
       <span className="material-symbols-outlined">shopping_cart</span>
     </div>
