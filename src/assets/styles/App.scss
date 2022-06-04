@@ -1,0 +1,35 @@
+/* stylelint-disable no-descending-specificity */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+
+/* Reset Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color-1: #84cc16;
+  --accent-color-1: #feb500;
+}
+
+/* Global styles */
+html {
+  overflow-x: hidden;
+  height: 100%;
+}
+
+body {
+  font-size: 16px;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

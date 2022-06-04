@@ -1,11 +1,9 @@
-import './App.css';
+import Home from './pages/home/Home';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Shoppingify</h1>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Home />
+  </div>
+);
 
 export default App;
