@@ -3,7 +3,7 @@ aside {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: fit-content;
+  width: 6rem;
   height: 100vh;
   background: #fff;
   padding: 2.19rem 0;
@@ -13,7 +13,6 @@ aside {
       > li {
 
         &:not(:nth-of-type(3)) {
-          border-left: solid 6px #F9A109;
           margin-bottom: 2.8rem
         }
 
